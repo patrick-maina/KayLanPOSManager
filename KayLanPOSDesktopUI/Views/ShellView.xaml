@@ -6,7 +6,19 @@
         xmlns:local="clr-namespace:KayLanPOSDesktopUI.Views"
         mc:Ignorable="d"
         Title="ShellView" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" FontSize="18">
+            <MenuItem Header="_File">
+
+            </MenuItem>
+            <MenuItem Header="Account">
+                <MenuItem x:Name="LoginScreen" Header="_Login"/>
+            </MenuItem>
+        </Menu>
+        <Grid Width="773" RenderTransformOrigin="0.5,0.5">
+            <ContentControl x:Name="ActiveItem" Margin="5" />
+
+        </Grid>
+
+    </DockPanel>
 </Window>
