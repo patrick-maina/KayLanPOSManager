@@ -9,6 +9,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "KayLanPOSData", "KayLanPOSD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KayLanPOSDesktopUI", "KayLanPOSDesktopUI\KayLanPOSDesktopUI.csproj", "{1BEB9CA4-2311-48AA-A388-37A33D66EFD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KayLanPOSDataManager.Library", "KayLanPOSDataManager.Library\KayLanPOSDataManager.Library.csproj", "{F5629EF2-06EE-4B04-A85D-8DBF8CEBEC9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{1BEB9CA4-2311-48AA-A388-37A33D66EFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BEB9CA4-2311-48AA-A388-37A33D66EFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BEB9CA4-2311-48AA-A388-37A33D66EFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5629EF2-06EE-4B04-A85D-8DBF8CEBEC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5629EF2-06EE-4B04-A85D-8DBF8CEBEC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5629EF2-06EE-4B04-A85D-8DBF8CEBEC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5629EF2-06EE-4B04-A85D-8DBF8CEBEC9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
